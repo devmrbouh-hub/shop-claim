@@ -1,0 +1,9 @@
+dist/
+build/
+*.spec
+bridge.json
+data/
+.venv/
+__pycache__/
+.pytest_cache/
+*.egg-info/

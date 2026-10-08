@@ -1,0 +1,26 @@
+{
+  "request": {
+    "version": "v1",
+    "function": "shop",
+    "method": "info",
+    "limit": 149
+  },
+  "responce": {
+    "status": "ok",
+    "data": {
+      "id": 900001,
+      "name": "Demo Shop",
+      "servers": [10001, 10002, 10003],
+      "settings": {
+        "theme": {
+          "logo": "/img/shop/900001/logo.png"
+        },
+        "bonus_life": 120,
+        "bonus_sell_rate": 1
+      },
+      "active_servers": [10001, 10002, 10003]
+    },
+    "data_count": 5,
+    "time": 0.015
+  }
+}

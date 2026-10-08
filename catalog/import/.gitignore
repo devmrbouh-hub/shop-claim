@@ -1,0 +1,4 @@
+*.xlsx
+*.zip
+_pack_staging/
+offers-from-yaml.xlsx

@@ -1,0 +1,4 @@
+dist/
+staging/
+*.zip
+tools/nssm.exe

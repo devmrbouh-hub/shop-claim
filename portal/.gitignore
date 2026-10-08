@@ -1,0 +1,18 @@
+# Portal runtime data
+data/
+*.db
+
+# Python
+__pycache__/
+*.egg-info/
+.venv/
+.pytest_cache/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/dist-landing/
+frontend/tsconfig.tsbuildinfo
+
+# Built static (regenerate via build-portal.ps1)
+backend/static/

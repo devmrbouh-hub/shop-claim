@@ -1,0 +1,11 @@
+name = "ShopClaim Delivery GUI";
+picture = "";
+action = "";
+hideName = 1;
+hidePicture = 1;
+logo = "";
+logoOver = "";
+logoSmall = "";
+tooltip = "WarGM shop GUI";
+overview = "Client UI for WarGM shop delivery";
+author = "Cherno";

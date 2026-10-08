@@ -1,0 +1,37 @@
+{
+  "bridge_url": "http://127.0.0.1:8787/",
+  "server_id": "demo_server_alpha",
+  "api_token": "GENERATE_RANDOM_TOKEN_ALPHA",
+  "shop_server_id": 10001,
+  "claim_command": "shop",
+  "enable_chat_commands": false,
+  "container_class": "SeaChest",
+  "container_empty_check_sec": 5,
+  "abandoned_container_hours": 24,
+  "vehicle_spawn_cooldown_sec": 30,
+  "container_spawn_distance_m": 1.2,
+  "container_spawn_max_slope_deg": 25,
+  "container_spawn_check_radius_m": 0.8,
+  "container_respawn_cooldown_sec": 30,
+  "gui": {
+    "theme_prefix": "ShopClaimTheme"
+  },
+  "messages": {
+    "prefix": "[Магазин]",
+    "no_purchases": "Нет незабранных покупок.",
+    "container_active": "Сначала заберите предметы из ящика или нажмите «Пересоздать ящик».",
+    "vehicle_no_space": "Нет места для техники. Отойдите в открытую область и попробуйте снова.",
+    "delivered_container": "Ящик с покупкой создан рядом с вами.",
+    "delivered_vehicle": "Техника выдана.",
+    "service_unavailable": "Сервис магазина временно недоступен.",
+    "please_wait": "Подождите…",
+    "vehicle_not_available": "Выдача техники будет в следующем обновлении.",
+    "invalid_index": "Неверный номер покупки.",
+    "list_stale": "Обновите список покупок.",
+    "claim_failed": "Не удалось выдать покупку.",
+    "container_bad_surface": "Заберите покупку на суше, не у воды.",
+    "container_respawn_ok": "Ящик пересоздан. Заберите оставшиеся предметы.",
+    "container_respawn_none": "Нет активного ящика для пересоздания.",
+    "container_nothing_left": "Все предметы уже получены."
+  }
+}

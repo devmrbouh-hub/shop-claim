@@ -1,0 +1,37 @@
+offers:
+  5001:
+    type: container
+    name: "Стартовый набор"
+    container: SeaChest
+    items:
+      - class: AKM
+        qty: 1
+        attachments:
+          - Mag_AKM_30Rnd
+      - class: Money_Ruble500
+        qty: 2
+    shop_server_ids:
+      - 10001
+      - 10002
+      - 10003
+
+  5002:
+    type: container
+    name: "5000 рублей"
+    container: SeaChest
+    items:
+      - class: Money_Ruble5000
+        qty: 1
+
+  5010:
+    type: vehicle
+    name: "ADA 4x4"
+    class: OffroadHatchback
+    shop_server_ids:
+      - 10001
+      - 10002
+      - 10003
+    spawn:
+      distance_m: 6
+      max_slope_deg: 15
+      check_radius_m: 2.5

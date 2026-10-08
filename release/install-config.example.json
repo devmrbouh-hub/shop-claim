@@ -1,0 +1,25 @@
+{
+  "bridgePath": "C:\\ShopClaim\\Bridge",
+  "wargm": {
+    "shop_id": "YOUR_SHOP_ID",
+    "api_key": "YOUR_SHOP_API_KEY"
+  },
+  "dev_mode": false,
+  "installService": true,
+  "instances": [
+    {
+      "server_id": "demo_server_alpha",
+      "shop_server_id": 10001,
+      "serverRoot": "C:\\DayZ\\Instance_Alpha",
+      "profilesDir": "C:\\DayZ\\Instance_Alpha\\profiles",
+      "enabled": true
+    },
+    {
+      "server_id": "demo_server_beta",
+      "shop_server_id": 10002,
+      "serverRoot": "C:\\DayZ\\Instance_Beta",
+      "profilesDir": "C:\\DayZ\\Instance_Beta\\profiles",
+      "enabled": true
+    }
+  ]
+}

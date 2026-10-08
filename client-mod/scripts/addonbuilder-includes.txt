@@ -1,0 +1,5 @@
+*.c
+*.layout
+*.xml
+*.csv
+*.edds

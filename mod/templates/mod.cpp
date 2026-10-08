@@ -1,0 +1,11 @@
+name = "ShopClaim Delivery";
+picture = "";
+action = "";
+hideName = 1;
+hidePicture = 1;
+logo = "";
+logoOver = "";
+logoSmall = "";
+tooltip = "ShopClaim Delivery";
+overview = "Server-side WarGM shop delivery";
+author = "Cherno";

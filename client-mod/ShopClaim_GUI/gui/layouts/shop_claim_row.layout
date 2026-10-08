@@ -1,0 +1,109 @@
+PanelWidgetClass row_root {
+ visible 1
+ clipchildren 1
+ ignorepointer 0
+ color 0.14 0.14 0.14 0.9
+ position 0 0
+ size 1 52
+ hexactpos 0
+ vexactpos 0
+ hexactsize 0
+ vexactsize 1
+ style editor_quad_dark
+ {
+  TextWidgetClass text_type {
+   visible 1
+   ignorepointer 1
+   position 0.02 0.12
+   size 0.17 0.76
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+   text "[Предметы]"
+   font "gui/fonts/sdf_MetronLight24"
+   "exact text" 1
+   "text halign" left
+   "text valign" center
+   color 0.78 0.8 0.84 1
+  }
+  TextWidgetClass text_name {
+   visible 1
+   ignorepointer 1
+   position 0.2 0.12
+   size 0.38 0.76
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+   text ""
+   font "gui/fonts/sdf_MetronLight24"
+   "exact text" 1
+   "text halign" left
+   "text valign" center
+   color 0.88 0.9 0.93 1
+  }
+  TextWidgetClass text_badge {
+   visible 1
+   ignorepointer 1
+   position 0.58 0.12
+   size 0.12 0.76
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+   text ""
+   font "gui/fonts/sdf_MetronLight24"
+   "exact text" 1
+   "text halign" center
+   "text valign" center
+   color 0.75 0.55 0.2 1
+  }
+  PanelWidgetClass button_claim {
+   visible 0
+   ignorepointer 0
+   color 0 0 0 0
+   position 0.02 0.02
+   size 0.2 0.78
+   halign right_ref
+   valign center_ref
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+   {
+    ImageWidgetClass button_claim_img {
+     visible 1
+     ignorepointer 1
+     position 0 0
+     size 1 1
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     mode blend
+     "src alpha" 1
+     stretch 1
+    }
+   }
+  }
+  ButtonWidgetClass button_claim_fallback {
+   visible 1
+   ignorepointer 0
+   position 0.02 0.02
+   size 0.2 0.78
+   halign right_ref
+   valign center_ref
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+   color 0.18 0.45 0.92 1
+   style Editor
+   text "Забрать"
+   font "gui/fonts/Metron-Bold16"
+   "exact text" 1
+   "text color" 1 1 1 1
+  }
+ }
+}

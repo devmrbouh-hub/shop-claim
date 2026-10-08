@@ -1,0 +1,22 @@
+profiles:
+  OffroadHatchback:
+    spawn_attachments:
+      - HatchbackWheel
+      - HatchbackWheel
+      - HatchbackWheel
+      - HatchbackWheel
+      - HatchbackDoors_Driver
+      - HatchbackDoors_CoDriver
+      - HatchbackDoors_Hood
+      - HatchbackTrunk
+      - CarRadiator
+      - CarBattery
+      - SparkPlug
+      - HeadlightH7
+      - HeadlightH7
+    fluids:
+      fuel: 1.0
+      coolant: 1.0
+    cargo_items:
+      - class: ExpansionCarKey
+        qty: 1

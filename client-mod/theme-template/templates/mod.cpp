@@ -1,0 +1,11 @@
+name = "WarGM Theme";
+picture = "";
+action = "";
+hideName = 1;
+hidePicture = 1;
+logo = "";
+logoOver = "";
+logoSmall = "";
+tooltip = "WarGM shop theme textures";
+overview = "Theme PBO for WarGM shop GUI (textures only)";
+author = "Cherno";

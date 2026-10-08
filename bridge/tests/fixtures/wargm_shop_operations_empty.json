@@ -1,0 +1,20 @@
+{
+  "request": {
+    "version": "v1",
+    "function": "shop",
+    "method": "operations",
+    "limit": 147,
+    "data": {
+      "date_end": "2026-07-01",
+      "claimed": 0,
+      "date_start": "2025-07-01",
+      "status": "success",
+      "delivery": "api"
+    }
+  },
+  "responce": {
+    "status": "ok",
+    "msg": "no operations",
+    "time": 0.045
+  }
+}

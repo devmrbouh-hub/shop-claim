@@ -1,0 +1,55 @@
+{
+  "_comment": "Multi-tenant Bridge example.",
+  "server": {
+    "host": "127.0.0.1",
+    "port": 8787,
+    "_reverse_proxy": "Публично: https://wargm-api.example.com → 127.0.0.1:8787"
+  },
+  "poll": {
+    "interval_sec": 45,
+    "sync_retry_sec": 60,
+    "operations_filters": {
+      "claimed": 0,
+      "status": "pending",
+      "delivery": ["online", "api"]
+    },
+    "lookback_days": 7
+  },
+  "database": {
+    "path": "data/orders.db"
+  },
+  "dev_mode": false,
+  "tenants": [
+    {
+      "tenant_id": "demo",
+      "enabled": true,
+      "subscription_until": "2027-01-01",
+      "wargm": {
+        "shop_id": "YOUR_SHOP_ID",
+        "api_key": "YOUR_SHOP_API_KEY",
+        "api_base": "https://api.wargm.ru/v1.1/shop"
+      },
+      "catalog": {
+        "offers_path": "tenants/demo/offers.yaml",
+        "vehicle_profiles_path": "tenants/demo/vehicle_profiles.yaml"
+      },
+      "allowed_egress_ips": ["203.0.113.10", "203.0.113.11"],
+      "servers": [
+        {
+          "server_id": "demo_server_alpha",
+          "shop_server_id": 10001,
+          "api_token": "GENERATE_RANDOM_TOKEN_ALPHA",
+          "enabled": true,
+          "catalog_path": "tenants/demo/offers.yaml"
+        },
+        {
+          "server_id": "demo_server_beta",
+          "shop_server_id": 10002,
+          "api_token": "GENERATE_RANDOM_TOKEN_BETA",
+          "enabled": true,
+          "catalog_path": "tenants/demo/offers.yaml"
+        }
+      ]
+    }
+  ]
+}

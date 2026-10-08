@@ -1,0 +1,23 @@
+{
+  "request": {
+    "version": "v1",
+    "function": "shop",
+    "method": "offer",
+    "limit": 145,
+    "data": {
+      "offer_id": 5002
+    }
+  },
+  "responce": {
+    "status": "ok",
+    "data": {
+      "id": 5002,
+      "active": true,
+      "servers": [10001, 10002, 10003],
+      "discount": 0,
+      "delivery": "api"
+    },
+    "data_count": 5,
+    "time": 0.016
+  }
+}

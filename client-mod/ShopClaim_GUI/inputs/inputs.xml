@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<modded_inputs>
+	<inputs>
+		<actions>
+			<input name="UAShopClaimOpenShop" loc="STR_ShopClaim_OpenShop" />
+		</actions>
+	</inputs>
+	<preset>
+		<input name="UAShopClaimOpenShop">
+			<btn name="kHome" />
+		</input>
+	</preset>
+</modded_inputs>

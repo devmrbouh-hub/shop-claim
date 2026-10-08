@@ -1,0 +1,55 @@
+# Каталог товаров wargm → выдача в DayZ
+# Скопировать в offers.yaml и заполнить реальными offer_id из ЛК wargm.
+# ClassName проверять: content/_shared/classnames-catalog.yaml
+
+offers:
+  # --- Предметы в ящике ---
+  5001:
+    type: container
+    name: "Стартовый набор"
+    # shop_server_id: null  # null = все сервера магазина; иначе ID сервера wargm
+    container: SeaChest
+    items:
+      - class: AKM
+        qty: 1
+        attachments:
+          - Mag_AKM_30Rnd
+      - class: Money_Ruble500
+        qty: 2
+
+  5002:
+    type: container
+    name: "5000 рублей"
+    container: SeaChest
+    items:
+      - class: Money_Ruble5000
+        qty: 1
+
+  5020:
+    type: container
+    name: "Пример: бочка"
+    container: Barrel_Green
+    items:
+      - class: BandageDressing
+        qty: 3
+
+  # --- Техника: spawn по взгляду ---
+  # Комплектация (spawn_attachments), cargo (ключи) и fluids — в catalog/vehicle_profiles.yaml
+  5010:
+    type: vehicle
+    name: "ADA 4x4"
+    class: OffroadHatchback
+    spawn:
+      distance_m: 6
+      max_slope_deg: 15
+      check_radius_m: 2.5
+
+  5011:
+    type: vehicle
+    name: "Вертолёт UH-1H"
+    class: RFFSHeli_UH1H
+    spawn:
+      distance_m: 12
+      max_slope_deg: 10
+      check_radius_m: 5
+      min_clearance_above_m: 8

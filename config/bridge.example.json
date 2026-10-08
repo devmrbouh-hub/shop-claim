@@ -1,0 +1,49 @@
+{
+  "_comment": "Legacy single-tenant format; load_config() normalizes to tenants[] with tenant_id default.",
+  "wargm": {
+    "shop_id": "YOUR_SHOP_ID",
+    "api_key": "YOUR_SHOP_API_KEY",
+    "api_base": "https://api.wargm.ru/v1.1/shop"
+  },
+  "server": {
+    "host": "127.0.0.1",
+    "port": 8787
+  },
+  "poll": {
+    "interval_sec": 45,
+    "sync_retry_sec": 60,
+    "operations_filters": {
+      "claimed": 0,
+      "status": "pending",
+      "delivery": ["online", "api"]
+    },
+    "lookback_days": 7
+  },
+  "database": {
+    "path": "data/orders.db"
+  },
+  "catalog": {
+    "path": "catalog/offers.yaml"
+  },
+  "servers": [
+    {
+      "server_id": "demo_server_alpha",
+      "shop_server_id": 10001,
+      "api_token": "GENERATE_RANDOM_TOKEN_ALPHA",
+      "enabled": true
+    },
+    {
+      "server_id": "demo_server_beta",
+      "shop_server_id": 10002,
+      "api_token": "GENERATE_RANDOM_TOKEN_BETA",
+      "enabled": true
+    },
+    {
+      "server_id": "demo_server_gamma",
+      "shop_server_id": 10003,
+      "api_token": "GENERATE_RANDOM_TOKEN_GAMMA",
+      "enabled": true
+    }
+  ],
+  "dev_mode": true
+}

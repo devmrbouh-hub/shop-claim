@@ -1,0 +1,39 @@
+# Bridge
+bridge.json
+bridge/.venv/
+bridge/data/
+bridge/dist/
+bridge/**/__pycache__/
+bridge/**/*.pyc
+
+# Portal
+portal/backend/.venv/
+portal/backend/**/__pycache__/
+portal/backend/portal.db
+portal/backend/static/
+portal/frontend/node_modules/
+portal/frontend/dist/
+
+# Release
+release/dist/
+release/staging/
+release/**/*.zip
+
+# Runtime / secrets
+**/orders.db
+**/orders.db-*
+_bridge_vps_staging/
+_local/
+
+# Python
+.venv/
+*.pyc
+__pycache__/
+
+# Ops paste from prod hosts (may contain api keys in URLs)
+С хоста/
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store

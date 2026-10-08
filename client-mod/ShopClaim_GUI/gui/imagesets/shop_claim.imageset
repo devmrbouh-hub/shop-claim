@@ -1,0 +1,32 @@
+ImageSetClass {
+ Name "shop_claim"
+ RefSize 1024 256
+ Textures {
+  ImageSetTextureClass {
+   mpix 1
+   path "ShopClaim_GUI/gui/textures/shop_claim_buttons.edds"
+  }
+ }
+ Images {
+  ImageSetDefClass btn_claim {
+   Name "btn_claim"
+   Pos 0 0
+   Size 256 256
+   Flags 0
+  }
+  ImageSetDefClass btn_refresh {
+   Name "btn_refresh"
+   Pos 384 0
+   Size 256 256
+   Flags 0
+  }
+  ImageSetDefClass btn_close {
+   Name "btn_close"
+   Pos 768 0
+   Size 256 256
+   Flags 0
+  }
+ }
+ Groups {
+ }
+}

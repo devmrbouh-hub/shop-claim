@@ -1,0 +1,31 @@
+{
+  "version": "0.0.0-dev",
+  "updated_at": "",
+  "artifacts": [
+    {
+      "id": "shopclaim_server",
+      "name": "@ShopClaim",
+      "description": "Server mod — подключайте через -servermod",
+      "kind": "server_mod",
+      "required": true,
+      "filename": "ShopClaim-server-mod.zip"
+    },
+    {
+      "id": "shopclaim_gui",
+      "name": "@ShopClaim_GUI",
+      "description": "Client GUI — в -mod на DS и у игроков",
+      "kind": "client_mod",
+      "required": true,
+      "filename": "ShopClaim-GUI.zip",
+      "workshop_url": ""
+    },
+    {
+      "id": "shopclaim_theme",
+      "name": "ShopClaimTheme",
+      "description": "Шаблон theme PBO для брендинга окна магазина",
+      "kind": "theme",
+      "required": false,
+      "filename": "ShopClaimTheme-template.zip"
+    }
+  ]
+}
